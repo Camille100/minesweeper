@@ -1,0 +1,82 @@
+
+body { 
+    background: url(./img/night.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+table {
+    border: solid black 1px;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+
+}
+tr {
+    margin: 0;
+    padding: 0;
+}
+td {
+    border: solid #d0ecff 1px;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    background-color: #2853858a;
+    font-size: 25px;
+}
+td img {
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+.info {
+    margin: auto;
+    padding: 20px;
+}
+
+.difficulties {
+    margin: auto;
+    padding: 20px;
+}
+
+button {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 9px 12px 9px 12px;
+    border-radius: 10px;
+    margin: 7px;
+    font-size: 25px;
+    font-weight: lighter;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #285385;
+
+}
+.info h1 {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+.info p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+

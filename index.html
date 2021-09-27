@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif">
+
+    <title>Démineur</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <h1>DEMINEUR</h1>
+            <p>Drapeaux restants: <span class="flags"></span></p>
+        </div>
+
+        <div class="board">
+            <!-- game board -->
+        </div>
+
+        <div class="difficulties">
+            <button id="easy" onclick="drawboard('easy');">Easy</button>
+            <button id="normal" onclick="drawboard('normal');">Normal</button>
+            <button id="hard" onclick="drawboard('hard');">Hard</button>
+        </div>
+    </div>
+
+    <script src="app2.js"></script>
+</body>
+
+</html>
