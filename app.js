@@ -46,10 +46,8 @@ const mineSweeper = {
       columns: 20,
       mines: 100,
     },
-  }
+  },
 };
-
-
 
 function drawboard(difficulty = "easy") {
   difficulty = mineSweeper.difficulties[difficulty];
@@ -348,4 +346,4 @@ function drawboard(difficulty = "easy") {
   victory();
 }
 
-drawboard('easy');
+drawboard("easy");
